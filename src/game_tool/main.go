@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/cwloo/gonet/logs"
-	"github.com/cwloo/gonet/utils/cmd"
-	"github.com/cwloo/gonet/utils/crypto/aes"
-	db "github.com/cwloo/gonet/utils/dbwraper"
+	"github.com/xi123/libgo/logs"
+	"github.com/xi123/libgo/utils/cmd"
+	"github.com/xi123/libgo/utils/crypto/aes"
+	db "github.com/xi123/libgo/utils/dbwraper"
 
 	"github.com/cwloo/server/src/common/mongoop"
 	"github.com/cwloo/server/src/config"

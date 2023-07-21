@@ -3,7 +3,7 @@ package game_gate
 import (
 	"sync"
 
-	"github.com/cwloo/gonet/logs"
+	"github.com/xi123/libgo/logs"
 	"github.com/cwloo/server/src/config"
 	"github.com/cwloo/server/src/global"
 	//promePkg "github.com/cwloo/server/src/global/pkg/common/prometheus"

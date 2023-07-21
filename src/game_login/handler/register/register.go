@@ -1,8 +1,8 @@
 package register
 
 import (
-	"github.com/cwloo/gonet/logs"
-	"github.com/cwloo/gonet/utils/response"
+	"github.com/xi123/libgo/logs"
+	"github.com/xi123/libgo/utils/response"
 	"github.com/cwloo/server/src/game_login/reqstruct"
 	"github.com/gin-gonic/gin"
 )

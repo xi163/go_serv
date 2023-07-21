@@ -4,11 +4,11 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/cwloo/gonet/core/base/task"
-	"github.com/cwloo/gonet/core/cb"
-	"github.com/cwloo/gonet/logs"
-	"github.com/cwloo/gonet/utils/cmd"
-	db "github.com/cwloo/gonet/utils/dbwraper"
+	"github.com/xi123/libgo/core/base/task"
+	"github.com/xi123/libgo/core/cb"
+	"github.com/xi123/libgo/logs"
+	"github.com/xi123/libgo/utils/cmd"
+	db "github.com/xi123/libgo/utils/dbwraper"
 	"github.com/cwloo/server/src/config"
 	"github.com/cwloo/server/src/game_login/handler"
 

@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/cwloo/gonet/logs"
+	"github.com/xi123/libgo/logs"
 	"github.com/cwloo/server/src/global"
 	"github.com/cwloo/server/src/global/httpsrv"
 )

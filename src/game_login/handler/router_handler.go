@@ -9,9 +9,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cwloo/gonet/logs"
-	"github.com/cwloo/gonet/utils/cmd"
-	"github.com/cwloo/gonet/utils/safe"
+	"github.com/xi123/libgo/logs"
+	"github.com/xi123/libgo/utils/cmd"
+	"github.com/xi123/libgo/utils/safe"
 	"github.com/cwloo/grpc-etcdv3/getcdv3"
 	"github.com/cwloo/grpc-etcdv3/getcdv3/gRPCs"
 	pb_file "github.com/cwloo/server/proto/file"
