@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/xi123/libgo/logs"
-	"github.com/cwloo/server/src/global"
-	"github.com/cwloo/server/src/global/httpsrv"
+	"github.com/xi123/server/src/global"
+	"github.com/xi123/server/src/global/httpsrv"
 )
 
 func handlerUpdateCfgJsonReq(body []byte) (*global.UpdateCfgResp, bool) {

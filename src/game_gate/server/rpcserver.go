@@ -7,20 +7,20 @@ import (
 	"strconv"
 	"strings"
 
-	config "github.com/cwloo/server/src/config"
-	"github.com/cwloo/server/src/game_gate/handler"
-	"github.com/cwloo/server/src/global"
+	config "github.com/xi123/server/src/config"
+	"github.com/xi123/server/src/game_gate/handler"
+	"github.com/xi123/server/src/global"
 
 	"github.com/xi123/libgo/core/net/conn"
 	"github.com/xi123/libgo/logs"
 	"github.com/xi123/libgo/utils/cmd"
 	"github.com/xi123/libgo/utils/conv"
-	getcdv3 "github.com/cwloo/grpc-etcdv3/getcdv3"
-	pb_getcdv3 "github.com/cwloo/grpc-etcdv3/getcdv3/proto"
-	pb_gamegate "github.com/cwloo/server/proto/game.gate"
-	pb_public "github.com/cwloo/server/proto/public"
+	getcdv3 "github.com/xi123/grpc-etcdv3/getcdv3"
+	pb_getcdv3 "github.com/xi123/grpc-etcdv3/getcdv3/proto"
+	pb_gamegate "github.com/xi123/server/proto/game.gate"
+	pb_public "github.com/xi123/server/proto/public"
 	"google.golang.org/grpc"
-	//promePkg "github.com/cwloo/server/src/global/pkg/common/prometheus"
+	//promePkg "github.com/xi123/server/src/global/pkg/common/prometheus"
 	//grpcPrometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
 )
 

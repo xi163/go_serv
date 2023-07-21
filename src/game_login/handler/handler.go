@@ -9,8 +9,8 @@ import (
 
 	"github.com/xi123/libgo/logs"
 	"github.com/xi123/libgo/utils/cmd"
-	"github.com/cwloo/server/src/config"
-	"github.com/cwloo/server/src/global"
+	"github.com/xi123/server/src/config"
+	"github.com/xi123/server/src/global"
 )
 
 func UpdateCfg(req *global.UpdateCfgReq) (*global.UpdateCfgResp, bool) {

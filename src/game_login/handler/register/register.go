@@ -3,7 +3,7 @@ package register
 import (
 	"github.com/xi123/libgo/logs"
 	"github.com/xi123/libgo/utils/response"
-	"github.com/cwloo/server/src/game_login/reqstruct"
+	"github.com/xi123/server/src/game_login/reqstruct"
 	"github.com/gin-gonic/gin"
 )
 

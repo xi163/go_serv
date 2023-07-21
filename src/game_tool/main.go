@@ -8,8 +8,8 @@ import (
 	"github.com/xi123/libgo/utils/crypto/aes"
 	db "github.com/xi123/libgo/utils/dbwraper"
 
-	"github.com/cwloo/server/src/common/mongoop"
-	"github.com/cwloo/server/src/config"
+	"github.com/xi123/server/src/common/mongoop"
+	"github.com/xi123/server/src/config"
 )
 
 func init() {

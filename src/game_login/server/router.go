@@ -7,9 +7,9 @@ import (
 	"github.com/xi123/libgo/logs"
 	"github.com/xi123/libgo/utils/cmd"
 	"github.com/xi123/libgo/utils/conv"
-	"github.com/cwloo/server/src/config"
-	"github.com/cwloo/server/src/game_login/handler"
-	"github.com/cwloo/server/src/global/httpsrv"
+	"github.com/xi123/server/src/config"
+	"github.com/xi123/server/src/game_login/handler"
+	"github.com/xi123/server/src/global/httpsrv"
 )
 
 // <summary>

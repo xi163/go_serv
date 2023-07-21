@@ -7,18 +7,18 @@ import (
 	"strconv"
 	"strings"
 
-	config "github.com/cwloo/server/src/config"
-	"github.com/cwloo/server/src/game_login/handler"
-	"github.com/cwloo/server/src/global"
+	config "github.com/xi123/server/src/config"
+	"github.com/xi123/server/src/game_login/handler"
+	"github.com/xi123/server/src/global"
 
 	"github.com/xi123/libgo/core/net/conn"
 	"github.com/xi123/libgo/logs"
 	"github.com/xi123/libgo/utils/cmd"
 	"github.com/xi123/libgo/utils/conv"
-	getcdv3 "github.com/cwloo/grpc-etcdv3/getcdv3"
-	pb_getcdv3 "github.com/cwloo/grpc-etcdv3/getcdv3/proto"
-	pb_httpgate "github.com/cwloo/server/proto/gate.http"
-	pb_public "github.com/cwloo/server/proto/public"
+	getcdv3 "github.com/xi123/grpc-etcdv3/getcdv3"
+	pb_getcdv3 "github.com/xi123/grpc-etcdv3/getcdv3/proto"
+	pb_httpgate "github.com/xi123/server/proto/gate.http"
+	pb_public "github.com/xi123/server/proto/public"
 	"google.golang.org/grpc"
 )
 

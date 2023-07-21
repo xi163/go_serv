@@ -4,9 +4,9 @@ import (
 	"sync"
 
 	"github.com/xi123/libgo/logs"
-	"github.com/cwloo/server/src/config"
-	"github.com/cwloo/server/src/global"
-	//promePkg "github.com/cwloo/server/src/global/pkg/common/prometheus"
+	"github.com/xi123/server/src/config"
+	"github.com/xi123/server/src/global"
+	//promePkg "github.com/xi123/server/src/global/pkg/common/prometheus"
 )
 
 var (

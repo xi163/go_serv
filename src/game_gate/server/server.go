@@ -21,10 +21,10 @@ import (
 	"github.com/xi123/libgo/utils/random"
 	"github.com/xi123/libgo/utils/user_context"
 	"github.com/xi123/libgo/utils/user_session"
-	"github.com/cwloo/grpc-etcdv3/getcdv3"
-	pb_Gamecomm "github.com/cwloo/server/proto/game.comm"
-	pb_Gamehall "github.com/cwloo/server/proto/game.hall"
-	"github.com/cwloo/server/src/config"
+	"github.com/xi123/grpc-etcdv3/getcdv3"
+	pb_Gamecomm "github.com/xi123/server/proto/game.comm"
+	pb_Gamehall "github.com/xi123/server/proto/game.hall"
+	"github.com/xi123/server/src/config"
 )
 
 // <summary>

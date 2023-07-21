@@ -3,7 +3,7 @@ package game_login
 import (
 	"sync"
 
-	"github.com/cwloo/server/src/global"
+	"github.com/xi123/server/src/global"
 )
 
 var (

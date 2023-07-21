@@ -6,9 +6,9 @@ import (
 
 	"github.com/xi123/libgo/logs"
 	"github.com/xi123/libgo/utils/cmd"
-	"github.com/cwloo/server/src/config"
-	gate "github.com/cwloo/server/src/game_gate/server"
-	"github.com/cwloo/server/src/global"
+	"github.com/xi123/server/src/config"
+	gate "github.com/xi123/server/src/game_gate/server"
+	"github.com/xi123/server/src/global"
 )
 
 func init() {
